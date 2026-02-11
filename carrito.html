@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Easy Culinary – Carrito</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="imagenes/logo.png" class="logo">
+    <h1>Easy Culinary</h1>
+    <p class="slogan">Porque los pequeños detalles hacen grandes cambios</p>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="marketing.html">Marketing</a>
+    <a href="carrito.html">Carrito <span class="cart-count">0</span></a>
+  </nav>
+
+  <main class="main">
+    <section class="sobre sobre-box">
+      <h2 class="titulo-centro">Tu carrito</h2>
+      <p class="texto-centro">Gestiona tus productos fácilmente.</p>
+
+      <div id="cart-items" class="cart-list"></div>
+
+      <div class="cart-total">
+        Total: <span id="cart-total">0 €</span>
+      </div>
+
+      <div class="cart-actions">
+        <a href="productos.html" class="btn">Seguir comprando</a>
+        <button class="btn btn-success">Finalizar compra</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Easy Culinary © Proyecto educativo – Todos los datos son simulados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

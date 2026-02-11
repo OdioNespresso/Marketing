@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Easy Culinary – Productos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <img src="imagenes/logo.png" class="logo">
+    <h1>Easy Culinary</h1>
+    <p class="slogan">Porque los pequeños detalles hacen grandes cambios</p>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="marketing.html">Marketing</a>
+    <a href="carrito.html">Carrito <span class="cart-count">0</span></a>
+  </nav>
+
+  <main class="main">
+    <h2 class="titulo-centro">Catálogo de productos</h2>
+    <p class="texto-centro">Accesorios prácticos, resistentes y económicos diseñados para tu día a día.</p>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Easy Grip</h3>
+        <p>Cubiertas de silicona antideslizantes para platos y vasos calientes.</p>
+        <p class="precio">3 €</p>
+        <button class="btn-small" data-add-cart data-id="easy-grip" data-nombre="Easy Grip" data-precio="3">Añadir al carrito</button>
+      </div>
+
+      <div class="card">
+        <h3>Easy Seal</h3>
+        <p>Tapas universales de silicona para recipientes de distintos tamaños.</p>
+        <p class="precio">4 €</p>
+        <button class="btn-small" data-add-cart data-id="easy-seal" data-nombre="Easy Seal" data-precio="4">Añadir al carrito</button>
+      </div>
+
+      <div class="card">
+        <h3>Easy Pack</h3>
+        <p>Pack básico: 3 Easy Grip + 2 Easy Seal.</p>
+        <p class="precio">10 €</p>
+        <button class="btn-small" data-add-cart data-id="easy-pack" data-nombre="Easy Pack" data-precio="10">Añadir al carrito</button>
+      </div>
+
+      <div class="card">
+        <h3>Kit Cocina Fácil</h3>
+        <p>Pack ampliado con accesorios extra para el día a día.</p>
+        <p class="precio">15 €</p>
+        <button class="btn-small" data-add-cart data-id="kit-cocina" data-nombre="Kit Cocina Fácil" data-precio="15">Añadir al carrito</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    Easy Culinary © Proyecto educativo – Todos los datos son simulados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
